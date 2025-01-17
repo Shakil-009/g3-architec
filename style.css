@@ -28,6 +28,13 @@
     border: none;
     border-radius: 8px;
 }
+main{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 126px;
+}
   /* header styles */
 
   /* navbar related Styles*/
@@ -70,7 +77,27 @@
     width: 100%;
 }
 
-
+/* team and feature styles */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 126px;
+    max-width: 520px;
+}
+.feature-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 430px;
+}
+#quick-list{
+    font-weight: 500;
+}
 
 /* Responsive media query */
 
